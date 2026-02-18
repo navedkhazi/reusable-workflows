@@ -9,10 +9,10 @@ on:
   workflow_call:
    inputs:
      run_unit_tests:
-     description: "Run Unit Tests"
-     required: false
-     default: true
-     type: boolean
+       description: "Run Unit Tests"
+       required: false
+       default: true
+       type: boolean
 
      run_build:
        description: "Create Application Image"
